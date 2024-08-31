@@ -1,4 +1,4 @@
-@media screen  and (max-width:2560px){
+
     header{
         width: 100%;
         background-color: rgb(100, 99, 99);
@@ -12,9 +12,13 @@
         text-decoration: none;
         
     }
-
+    @media screen  and (max-width:360px){
+        .nav{
+            padding: 0px 100px  ;
+        }
 }
-@media screen  and (max-width:2560px){
+
+
 
     .div1{
         display: grid;
@@ -57,5 +61,8 @@
         background-color: rgb(100, 99, 99);
         bottom: 0;
     }
-
+    @media screen  and (max-width:420px){
+        .parent{
+            grid-template-columns: repeat(1,1fr);
+        }
 }
