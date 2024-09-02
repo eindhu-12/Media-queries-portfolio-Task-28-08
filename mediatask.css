@@ -10,14 +10,15 @@
     a{
         color: white;
         text-decoration: none;
+        padding: 0px 20px;
         
     }
-    @media screen  and (max-width:360px){
-        .nav{
-            padding: 0px 100px  ;
-        }
+    @media screen  and (max-width:380px){
+a{
+display:block;
+        
 }
-
+    }
 
 
     .div1{
